@@ -1,11 +1,8 @@
-################################
-# Docker Install Ubuntu Script
-# docker_install.sh
-################################
-
+###################################################
+# Docker Install Ubuntu Script # docker_install.sh
+###################################################
 
 #!/bin/bash
-
 sudo apt-get -y remove docker docker-engine docker.io containerd runc
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl gnupg lsb-release curl
